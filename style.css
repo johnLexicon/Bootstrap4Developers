@@ -1,7 +1,7 @@
 .myDiv {
-  width: 200px;
+  width: 100%;
+}
+
+.myRow {
   height: 200px;
-  padding: 20px;
-  margin: 10px 20px;
-  display: inline-block;
 }
