@@ -1,7 +1,3 @@
 .myDiv {
-  width: 100%;
-}
-
-.myRow {
-  height: 200px;
+  border: 1px solid #333;
 }

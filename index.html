@@ -22,16 +22,18 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="myRow col bg-warning"></div>
+        <div class="col-sm order-3 myDiv">First</div>
+        <div class="col-sm order-1 myDiv">Second</div>
+        <div class="col-sm order-2 myDiv">Third</div>
       </div>
       <div class="row">
-        <div class="myRow col bg-success"></div>
-        <div class="myRow col bg-danger"></div>
-      </div>
-      <div class="row">
-        <div class="myRow col bg-info"></div>
-        <div class="myRow col bg-dark"></div>
-        <div class="myRow col bg-secondary"></div>
+        <div class="col bg-primary">
+          First
+          <div class="row">
+            <div class="col bg-warning">Nested 1</div>
+            <div class="col bg-danger">Nested 2</div>
+          </div>
+        </div>
       </div>
     </div>
 
